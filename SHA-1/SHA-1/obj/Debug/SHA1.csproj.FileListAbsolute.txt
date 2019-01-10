@@ -1,0 +1,14 @@
+\\Mac\Home\Documents\GitHub\Algorithm_SHA1\SHA-1\SHA-1\bin\Debug\SHA-1.exe.config
+\\Mac\Home\Documents\GitHub\Algorithm_SHA1\SHA-1\SHA-1\bin\Debug\SHA-1.exe
+\\Mac\Home\Documents\GitHub\Algorithm_SHA1\SHA-1\SHA-1\bin\Debug\SHA-1.pdb
+\\Mac\Home\Documents\GitHub\Algorithm_SHA1\SHA-1\SHA-1\obj\Debug\SHA1.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\Algorithm_SHA1\SHA-1\SHA-1\obj\Debug\SHA-1.g.resources
+\\Mac\Home\Documents\GitHub\Algorithm_SHA1\SHA-1\SHA-1\obj\Debug\SHA_1.About.resources
+\\Mac\Home\Documents\GitHub\Algorithm_SHA1\SHA-1\SHA-1\obj\Debug\SHA_1.Form1.resources
+\\Mac\Home\Documents\GitHub\Algorithm_SHA1\SHA-1\SHA-1\obj\Debug\SHA_1.Practice.resources
+\\Mac\Home\Documents\GitHub\Algorithm_SHA1\SHA-1\SHA-1\obj\Debug\SHA1.Properties.Resources.resources
+\\Mac\Home\Documents\GitHub\Algorithm_SHA1\SHA-1\SHA-1\obj\Debug\SHA_1.Theory.resources
+\\Mac\Home\Documents\GitHub\Algorithm_SHA1\SHA-1\SHA-1\obj\Debug\SHA1.csproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\Algorithm_SHA1\SHA-1\SHA-1\obj\Debug\SHA1.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\Algorithm_SHA1\SHA-1\SHA-1\obj\Debug\SHA-1.exe
+\\Mac\Home\Documents\GitHub\Algorithm_SHA1\SHA-1\SHA-1\obj\Debug\SHA-1.pdb
