@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SHA_1
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
         }
@@ -32,6 +32,8 @@ namespace SHA_1
         {
             Practice practice = new Practice();
             practice.Show();
+
+            
         }
 
         private void btnAbout_Click(object sender, EventArgs e)
