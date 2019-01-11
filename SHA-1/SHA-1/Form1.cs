@@ -25,13 +25,13 @@ namespace SHA_1
         private void btnTheory_Click(object sender, EventArgs e)
         {
             Theory form = new Theory();
-            form.Show();
+            form.ShowDialog();
         }
 
         private void btnPractice_Click(object sender, EventArgs e)
         {
             Practice practice = new Practice();
-            practice.Show();
+            practice.ShowDialog();
 
             
         }
