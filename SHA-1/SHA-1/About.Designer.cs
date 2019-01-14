@@ -29,28 +29,41 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(285, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 52);
+            this.label1.Size = new System.Drawing.Size(229, 65);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Made by \r\nFront & UI/UX - Julja Vysotska\r\nBack end - Stas \"iSan4eZ\" Panasuk\r\n2018" +
-    ", All rights reserved";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Text = "Разработчики:\r\nВысоцкая Юлия\r\nПанасюк Станислав, Тычинская Анастасия\r\nМалецкая Ол" +
+    "ьга\r\nВсе права защищены";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(277, 65);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Роли:\r\nТеория и практика - \r\nРабота над алгоритмом и лабораторная работа - \r\nСбор" +
+    " информации, помощь в понимании алгоритма -\r\n 2018, ";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(216, 76);
+            this.ClientSize = new System.Drawing.Size(530, 90);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "About";
-            this.Text = "About";
+            this.Text = "О программе";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -59,5 +72,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
