@@ -1,4 +1,4 @@
-﻿namespace SHA_1
+﻿namespace SHA1
 {
     partial class StepThree
     {
@@ -36,11 +36,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.btnCheck = new System.Windows.Forms.Button();
             this.txbResult = new System.Windows.Forms.TextBox();
-            this.lblH0 = new System.Windows.Forms.Label();
-            this.lblH1 = new System.Windows.Forms.Label();
-            this.lblH2 = new System.Windows.Forms.Label();
-            this.lblH3 = new System.Windows.Forms.Label();
-            this.lblH4 = new System.Windows.Forms.Label();
+            this.txbH0 = new System.Windows.Forms.TextBox();
+            this.txbH1 = new System.Windows.Forms.TextBox();
+            this.txbH2 = new System.Windows.Forms.TextBox();
+            this.txbH3 = new System.Windows.Forms.TextBox();
+            this.txbH4 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -115,61 +115,56 @@
             this.txbResult.Size = new System.Drawing.Size(348, 20);
             this.txbResult.TabIndex = 13;
             // 
-            // lblH0
+            // txbH0
             // 
-            this.lblH0.AutoSize = true;
-            this.lblH0.Location = new System.Drawing.Point(39, 44);
-            this.lblH0.Name = "lblH0";
-            this.lblH0.Size = new System.Drawing.Size(33, 13);
-            this.lblH0.TabIndex = 14;
-            this.lblH0.Text = "value";
+            this.txbH0.Location = new System.Drawing.Point(44, 41);
+            this.txbH0.Name = "txbH0";
+            this.txbH0.ReadOnly = true;
+            this.txbH0.Size = new System.Drawing.Size(316, 20);
+            this.txbH0.TabIndex = 19;
             // 
-            // lblH1
+            // txbH1
             // 
-            this.lblH1.AutoSize = true;
-            this.lblH1.Location = new System.Drawing.Point(39, 62);
-            this.lblH1.Name = "lblH1";
-            this.lblH1.Size = new System.Drawing.Size(33, 13);
-            this.lblH1.TabIndex = 15;
-            this.lblH1.Text = "value";
+            this.txbH1.Location = new System.Drawing.Point(44, 59);
+            this.txbH1.Name = "txbH1";
+            this.txbH1.ReadOnly = true;
+            this.txbH1.Size = new System.Drawing.Size(316, 20);
+            this.txbH1.TabIndex = 20;
             // 
-            // lblH2
+            // txbH2
             // 
-            this.lblH2.AutoSize = true;
-            this.lblH2.Location = new System.Drawing.Point(39, 81);
-            this.lblH2.Name = "lblH2";
-            this.lblH2.Size = new System.Drawing.Size(33, 13);
-            this.lblH2.TabIndex = 16;
-            this.lblH2.Text = "value";
+            this.txbH2.Location = new System.Drawing.Point(44, 78);
+            this.txbH2.Name = "txbH2";
+            this.txbH2.ReadOnly = true;
+            this.txbH2.Size = new System.Drawing.Size(316, 20);
+            this.txbH2.TabIndex = 21;
             // 
-            // lblH3
+            // txbH3
             // 
-            this.lblH3.AutoSize = true;
-            this.lblH3.Location = new System.Drawing.Point(39, 101);
-            this.lblH3.Name = "lblH3";
-            this.lblH3.Size = new System.Drawing.Size(33, 13);
-            this.lblH3.TabIndex = 17;
-            this.lblH3.Text = "value";
+            this.txbH3.Location = new System.Drawing.Point(44, 98);
+            this.txbH3.Name = "txbH3";
+            this.txbH3.ReadOnly = true;
+            this.txbH3.Size = new System.Drawing.Size(316, 20);
+            this.txbH3.TabIndex = 22;
             // 
-            // lblH4
+            // txbH4
             // 
-            this.lblH4.AutoSize = true;
-            this.lblH4.Location = new System.Drawing.Point(39, 121);
-            this.lblH4.Name = "lblH4";
-            this.lblH4.Size = new System.Drawing.Size(33, 13);
-            this.lblH4.TabIndex = 18;
-            this.lblH4.Text = "value";
+            this.txbH4.Location = new System.Drawing.Point(44, 118);
+            this.txbH4.Name = "txbH4";
+            this.txbH4.ReadOnly = true;
+            this.txbH4.Size = new System.Drawing.Size(316, 20);
+            this.txbH4.TabIndex = 23;
             // 
             // StepThree
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(372, 203);
-            this.Controls.Add(this.lblH4);
-            this.Controls.Add(this.lblH3);
-            this.Controls.Add(this.lblH2);
-            this.Controls.Add(this.lblH1);
-            this.Controls.Add(this.lblH0);
+            this.Controls.Add(this.txbH4);
+            this.Controls.Add(this.txbH3);
+            this.Controls.Add(this.txbH2);
+            this.Controls.Add(this.txbH1);
+            this.Controls.Add(this.txbH0);
             this.Controls.Add(this.txbResult);
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.label6);
@@ -195,10 +190,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnCheck;
         private System.Windows.Forms.TextBox txbResult;
-        private System.Windows.Forms.Label lblH0;
-        private System.Windows.Forms.Label lblH1;
-        private System.Windows.Forms.Label lblH2;
-        private System.Windows.Forms.Label lblH3;
-        private System.Windows.Forms.Label lblH4;
+        private System.Windows.Forms.TextBox txbH0;
+        private System.Windows.Forms.TextBox txbH1;
+        private System.Windows.Forms.TextBox txbH2;
+        private System.Windows.Forms.TextBox txbH3;
+        private System.Windows.Forms.TextBox txbH4;
     }
 }

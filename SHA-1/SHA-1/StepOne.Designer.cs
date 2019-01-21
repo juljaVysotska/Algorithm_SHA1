@@ -1,4 +1,4 @@
-﻿namespace SHA_1
+﻿namespace SHA1
 {
     partial class StepOne
     {
@@ -58,9 +58,10 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(9, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(221, 26);
+            this.label1.Size = new System.Drawing.Size(324, 39);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Имеем входное сообщение. \r\nПодготовьте его для дальнейшей работы:";
+            this.label1.Text = "Имеем входное сообщение. \r\nПутём добавления битов, доведите сообщение до состояни" +
+    "я, \r\nготового к работе с ним:";
             // 
             // lbSymbols
             // 
@@ -73,16 +74,16 @@
             // 
             // rtbResult
             // 
-            this.rtbResult.Location = new System.Drawing.Point(12, 78);
+            this.rtbResult.Location = new System.Drawing.Point(12, 77);
             this.rtbResult.Name = "rtbResult";
-            this.rtbResult.Size = new System.Drawing.Size(348, 84);
+            this.rtbResult.Size = new System.Drawing.Size(348, 85);
             this.rtbResult.TabIndex = 6;
             this.rtbResult.Text = "";
             this.rtbResult.TextChanged += new System.EventHandler(this.rtbResult_TextChanged);
             // 
             // txbTask
             // 
-            this.txbTask.Location = new System.Drawing.Point(12, 47);
+            this.txbTask.Location = new System.Drawing.Point(12, 51);
             this.txbTask.Name = "txbTask";
             this.txbTask.ReadOnly = true;
             this.txbTask.Size = new System.Drawing.Size(348, 20);

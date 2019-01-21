@@ -1,4 +1,4 @@
-﻿namespace SHA_1
+﻿namespace SHA1
 {
     partial class Theory
     {

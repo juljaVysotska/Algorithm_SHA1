@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SHA1;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,16 +10,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SHA_1
+namespace SHA1
 {
     public partial class LabForm : Form
     {
         public int correctAnswers;
         public const int totalTests = 6;
 
+        FormFormulas formulas;
+
         public LabForm()
         {
             InitializeComponent();
+            formulas = new FormFormulas();
+            formulas.Show();
             showStep(new StepOne(this));
         }
 
@@ -35,6 +40,11 @@ namespace SHA_1
             formToShow.FormBorderStyle = FormBorderStyle.None;
             formToShow.Dock = DockStyle.Fill;
             formToShow.Show();
+        }
+
+        private void LabForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            formulas.Close();
         }
 
         //public string prepare(string messageBytes)

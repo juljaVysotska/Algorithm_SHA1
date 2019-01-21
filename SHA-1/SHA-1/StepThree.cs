@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SHA_1
+namespace SHA1
 {
     public partial class StepThree : Form
     {
         Random rnd = new Random();
-        LabForm labForm = new LabForm();
+        LabForm labForm;
 
         public StepThree(LabForm labForm)
         {
@@ -24,11 +24,11 @@ namespace SHA_1
 
         private void GenerateTask()
         {
-            lblH0.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2);
-            lblH1.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2);
-            lblH2.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2);
-            lblH3.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2);
-            lblH4.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2);
+            txbH0.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2).PadLeft(32, '0');
+            txbH1.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2).PadLeft(32, '0');
+            txbH2.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2).PadLeft(32, '0');
+            txbH3.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2).PadLeft(32, '0');
+            txbH4.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2).PadLeft(32, '0');
         }
 
         private string calculate(string H0, string H1, string H2, string H3, string H4)
@@ -43,7 +43,7 @@ namespace SHA_1
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
-            if (calculate(lblH0.Text, lblH1.Text, lblH2.Text, lblH3.Text, lblH4.Text) == txbResult.Text)
+            if (calculate(txbH0.Text, txbH1.Text, txbH2.Text, txbH3.Text, txbH4.Text) == txbResult.Text)
             {
                 labForm.correctAnswers += 1;
                 MessageBox.Show("Правильно! Итоговый результат: " + labForm.GetResult(), "Результат");

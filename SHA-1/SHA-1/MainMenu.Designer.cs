@@ -1,4 +1,4 @@
-﻿namespace SHA_1
+﻿namespace SHA1
 {
     partial class Main
     {
@@ -74,7 +74,7 @@
             this.btnPractice.Name = "btnPractice";
             this.btnPractice.Size = new System.Drawing.Size(144, 33);
             this.btnPractice.TabIndex = 3;
-            this.btnPractice.Text = "Практика";
+            this.btnPractice.Text = "Тестирование";
             this.btnPractice.UseVisualStyleBackColor = true;
             this.btnPractice.Click += new System.EventHandler(this.btnPractice_Click);
             // 
@@ -123,6 +123,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SHA-1";
             this.ResumeLayout(false);
             this.PerformLayout();

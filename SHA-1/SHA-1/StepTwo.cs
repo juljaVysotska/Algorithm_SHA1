@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SHA_1
+namespace SHA1
 {
     public partial class StepTwo : Form
     {
@@ -47,11 +47,11 @@ namespace SHA_1
                     this.Close();
                     return;
             }
-            lblATask.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2);
-            lblBTask.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2);
-            lblCTask.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2);
-            lblDTask.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2);
-            lblETask.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2);
+            lblATask.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2).PadLeft(32, '0');
+            lblBTask.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2).PadLeft(32, '0');
+            lblCTask.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2).PadLeft(32, '0');
+            lblDTask.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2).PadLeft(32, '0');
+            lblETask.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2).PadLeft(32, '0');
         }
 
         private void btnCheck_Click(object sender, EventArgs e)

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace SHA_1
+namespace SHA1
 {
     internal class Thickness
     {

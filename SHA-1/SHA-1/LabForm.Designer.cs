@@ -1,4 +1,4 @@
-﻿namespace SHA_1
+﻿namespace SHA1
 {
     partial class LabForm
     {
@@ -50,6 +50,7 @@
             this.Name = "LabForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LabForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.LabForm_FormClosed);
             this.ResumeLayout(false);
 
         }

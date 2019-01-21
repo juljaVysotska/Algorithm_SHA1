@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SHA_1
+namespace SHA1
 {
     public partial class StepOne : Form
     {
@@ -24,7 +24,7 @@ namespace SHA_1
 
         private void GenerateTask()
         {
-            txbTask.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2);
+            txbTask.Text = Convert.ToString(rnd.Next(Int32.MaxValue), 2).PadLeft(32, '0');
         }
 
         public string prepare(string messageBytes)
