@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblTask = new System.Windows.Forms.Label();
             this.lblA = new System.Windows.Forms.Label();
             this.lblB = new System.Windows.Forms.Label();
@@ -42,6 +43,8 @@
             this.lblCTask = new System.Windows.Forms.Label();
             this.lblBTask = new System.Windows.Forms.Label();
             this.lblATask = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tipTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // lblTask
@@ -168,11 +171,27 @@
             this.lblATask.TabIndex = 14;
             this.lblATask.Text = "a =";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(341, 4);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(19, 20);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "?";
+            this.tipTip.SetToolTip(this.label2, "Подсказка");
+            // 
+            // tipTip
+            // 
+            this.tipTip.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            // 
             // StepTwo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(372, 203);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.lblETask);
             this.Controls.Add(this.lblDTask);
             this.Controls.Add(this.lblCTask);
@@ -210,5 +229,7 @@
         private System.Windows.Forms.Label lblCTask;
         private System.Windows.Forms.Label lblBTask;
         private System.Windows.Forms.Label lblATask;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ToolTip tipTip;
     }
 }

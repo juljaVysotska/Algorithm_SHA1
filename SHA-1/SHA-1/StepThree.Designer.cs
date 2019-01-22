@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,6 +42,8 @@
             this.txbH2 = new System.Windows.Forms.TextBox();
             this.txbH3 = new System.Windows.Forms.TextBox();
             this.txbH4 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.tipTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -155,11 +158,27 @@
             this.txbH4.Size = new System.Drawing.Size(316, 20);
             this.txbH4.TabIndex = 23;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(341, 4);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(19, 20);
+            this.label7.TabIndex = 24;
+            this.label7.Text = "?";
+            this.tipTip.SetToolTip(this.label7, "Подсказка");
+            // 
+            // tipTip
+            // 
+            this.tipTip.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            // 
             // StepThree
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(372, 203);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.txbH4);
             this.Controls.Add(this.txbH3);
             this.Controls.Add(this.txbH2);
@@ -195,5 +214,7 @@
         private System.Windows.Forms.TextBox txbH2;
         private System.Windows.Forms.TextBox txbH3;
         private System.Windows.Forms.TextBox txbH4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ToolTip tipTip;
     }
 }
